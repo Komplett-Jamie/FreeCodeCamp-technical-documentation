@@ -116,15 +116,13 @@ hr{
 }
 
 code {
-  overflow: auto;
   display: block;
-  background-color: #ffffff;
+  background-color: lightgrey;
   border: 1px solid #898989;
-  padding: 10px;
   border-radius: 5px;
-  margin: 10px 15px;
   max-width:500px;
-
+  position:relative;
+  padding-left:10px
 }
 
 p {

@@ -83,11 +83,13 @@
                             To do this, we set a special value of display on the parent element of the elements 
                             you want to affect. In this case we want to lay out the <a>&lt;article&gt;</a> elements, so we 
                             set this on the <a>&lt;section&gt;</a>:
-                            <code>
-                                section {
-                                    display: flex;
-                                }
-                            </code>
+                            <pre>
+                                <code>
+                                    section {
+                                        display: flex;
+                                    }
+                                </code>
+                            </pre>
                             This causes the <a>&lt;section&gt;</a> element to become a flex container, and its children to become 
                             flex items. The result of this should be something like so:
                         </p>
@@ -438,15 +440,19 @@
                         <img src="https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox/flexbox-example7.png">
                         <p>
                             The HTML for this is fairly simple. We've got a <a>&lt;section&gt;</a> 
-                                element containing three <a>&lt;article&gt;</a>s. The third <a>&lt;article&gt;</a> 
-                                    contains three <a>&lt;div&gt;</a>s. :
-                                    <code>section - article
+                            element containing three <a>&lt;article&gt;</a>s. The third <a>&lt;article&gt;</a> 
+                            contains three <a>&lt;div&gt;</a>s. :
+                                <pre>
+                                    <code>
+                                        section - article
                                         article
                                         article - div - button
                                                   div   button
                                                   div   button
                                                         button
-                                                        button</code>
+                                                        button
+                                    </code>
+                                </pre>
                             Let's look at the code we've used for the layout.                            
                         </p>
                         <p>
